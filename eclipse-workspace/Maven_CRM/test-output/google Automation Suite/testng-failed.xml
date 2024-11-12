@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [google Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testcasesextent.TestListeners"/>
+  </listeners>
+  <test thread-count="1" name="Login Tests(failed)">
+    <classes>
+      <class name="testcasesextent.TestClassUsingListeners">
+        <methods>
+          <include name="testPassed"/>
+          <include name="beforeClass"/>
+          <include name="testFailed"/>
+          <include name="afterClass"/>
+          <include name="testSkipped"/>
+        </methods>
+      </class> <!-- testcasesextent.TestClassUsingListeners -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [google Automation Suite] -->
